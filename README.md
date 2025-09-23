@@ -4,18 +4,25 @@ Welcome to this hands-on workshop, which is part of the [Tallinn Data Week](http
 
 Before we start, please make sure you have a Snowflake trial account set up: https://signup.snowflake.com 
 
+<img src="free_trial.png" width=40% height=40%>
+
 When signing up, select the cloud provider **AWS** and a region **EU (Frankfurt)**. This ensures faster performance and better alignment with the resources you’ll use in the workshop.
+
+<img src="free_trial_account_selection.png" width=40% height=40%>
 
 Once your account is ready, we will walk through how to import a Jupyter notebook directly in the Snowflake UI. You can also see the steps from here:
 
-1. Log in to your Snowflake UI.
-2. Click the + Create button on the left sidebar.
-3. Choose Notebook → Import from Git Repository. (We can test it after I have uploaded the notebook)
-4. For database, select SNOWFLAKE_LEARNING_DB.
-5. For schema, select PUBLIC.
-6. Keep the runtime and runtime warehouse as the default.
-7. Keep query warehouse as COMPUTE_WH and notebook warehouse as SYSTEM$STREAMLIT_NOTEBOOK_WH.
-8. Finally, click Create to import the notebook into your environment.
+1. Download the [notebook](https://github.com/solita/tallinn-data-week-snowflake/blob/main/TDW_SNOWFLAKEDATAENGINEERING.ipynb)
+2. Log in to your Snowflake UI.
+3. Click the + Create button on the left sidebar.
+4. Choose Notebook → Import .ipynb File
+<img src="import_notebook.png" width=30% height=30%>
+
+5. For database, select SNOWFLAKE_LEARNING_DB.
+6. For schema, select PUBLIC.
+7. Keep the runtime and runtime warehouse as the default.
+8. Keep query warehouse as COMPUTE_WH and notebook warehouse as SYSTEM$STREAMLIT_NOTEBOOK_WH.
+9. Finally, click Create to import the notebook into your environment.
 
 The notebook will contain step-by-step instructions, this will allow you to follow along with the exercises and run the queries on your own environment.
 
