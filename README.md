@@ -1,6 +1,6 @@
 # Hands-on lab for Tallinn Data Week 
 
-Welcome to this hands-on workshop, which is part of the [Tallinn Data Week](https://fienta.com/tallinn-data-week-2025-snowflake) program. The goal of this workshop is to give you practical experience with Snowflake by combining concepts from modern data engineering pipelines with elements of data processing using Modin and Cortex.
+Welcome to this hands-on workshop, which is part of the [Tallinn Data Week](https://fienta.com/tallinn-data-week-2025-snowflake) program. The goal of this workshop is to give you practical experience with Snowflake by combining concepts from modern data engineering pipelines with elements of data processing with Cortex.
 
 Before we start, please make sure you have a Snowflake trial account set up: https://signup.snowflake.com 
 
